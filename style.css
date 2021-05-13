@@ -116,7 +116,9 @@ main .bodyContent .Content h2:hover{
 main .bodyContent .Content p{
     font-size:18px;
     text-transform: capitalize;
-
+    color: #766F68;
+    font-size:22px;
+    line-height: 30px;
 }
 
 main .bodyContent .Content button{
@@ -131,6 +133,7 @@ main .bodyContent .Content button{
     border-radius: 15px;
     text-transform: capitalize;
     cursor: pointer;
+    width: 75%;
 }
 
 main .bodyContent .Content button:hover{
