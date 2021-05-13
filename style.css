@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Animations  */
+@keyframes font-transform{
+
+    0%{
+    
+        font-family: 'Roboto', arial, helvetica, sans-serif;
+        font-weight: 300;
+        cursor: wait;
+    }
+    
+    25%{
+    
+        font-family: 'Roboto', arial, helvetica, sans-serif;
+        font-weight: 400;
+        cursor: wait;
+    }
+    
+    50%{
+    
+        font-family: 'Roboto', arial, helvetica, sans-serif;
+        font-weight: bold;
+        cursor: wait;
+    }
+    
+    75%{
+        transition: all ease 3s;
+        color:rgb(134, 61, 19);
+        font-family: 'Codystar', cursive;
+        font-weight: 300;
+        cursor: wait;
+    }
+
+    100%{
+        transition: all ease 3s;
+        color:rgb(175, 114, 15);
+        font-family: 'Codystar', cursive;
+        font-weight: 400;
+        cursor: default;
+    }
+}
+header .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:10px;
+}
+
+.header .logo .link{
+    text-decoration: none;
+    color:#D2872C;
+    font-weight: bold;
+    font-size:25px;
+    margin-left:50px;
+    cursor: pointer;
+}
+
+.header .logo .link:hover{
+    transition: all ease 1.82s;
+    color:#ff9f2a;
+}
+
+
+.header .menu .navigation{  
+    margin-left:-300px !important;
+}
+.header ul li{
+    display:inline-block;
+    margin-left:25px;
+}
+
+.header .menu .navigation ul li a{
+    text-decoration:none;
+    font-size:20px;
+    text-transform: capitalize;
+    color:#766F68;
+}
+
+.header .menu .navigation ul li a:hover{
+    transition: all ease 0.5s;
+    color:#ff9f2a;
+    cursor:pointer;
+    text-decoration: underline !important;
+}
+
+main .bodyContent{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .bodyContent .Content{
+    line-height: 90px;
+    padding-left:50px !important;
+}
+
+main .bodyContent .Content h2{
+    font-size: 50px;
+    color:#766F68;
+    font-weight: 300;
+}
+
+main .bodyContent .Content h2:hover{
+    animation-name: font-transform;
+    animation-duration: 5s;
+    animation-delay:0.3s;
+    
+}
+
+main .bodyContent .Content p{
+    font-size:18px;
+    text-transform: capitalize;
+
+}
+
+main .bodyContent .Content button{
+    background-color:#D2872C;
+    border:none;
+    outline: 0;
+    padding:15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size:25px;
+    color:white;
+    border-radius: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+main .bodyContent .Content button:hover{
+    transition: all ease 0.9s;
+    background-color: #ff9f2a;
+}
+
+main .bodyContent .brandingImage img{
+    border-radius:50%;
+}
+
+main .bodyContent .brandingImage img:hover{
+    transition: all ease 1.6s;
+    border-radius: 0%;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+footer .link {
+    text-decoration: none;
+    font-size:20px;
+    text-align: center;
+    color:#766F68;
+}
+
+footer .link span{
+    color:#D2872C;
+    
+}
+
+footer .link span:hover{
+    text-decoration: underline;
+}
+
+    
+
+
